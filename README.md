@@ -1,7 +1,7 @@
 # R-D-Quad-Analysis
 A comprehensive analysis of R&amp;D portfolio performance that optimizes spending based on qualitative and quantitative scoring
 
-##Strategy Model##
+##Strategy Model
 When building a model for this company,  we identified 4 variables that were most relevant to evaluating a projects performance
 
 **Quantitative Variables:**
