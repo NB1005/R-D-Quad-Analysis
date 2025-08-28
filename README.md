@@ -8,7 +8,7 @@ A comprehensive analysis of R&amp;D portfolio performance that optimizes spendin
 When building a model for this company,  we identified 4 variables that were most relevant to evaluating a projects performance
 
 ### Quantitative Variables
-1. Gross Profit Variance: Product Segment Gross Profit Performance in comparison to the Parent Company’s Gross Profit.
+**1. Gross Profit Variance:** Product Segment Gross Profit Performance in comparison to the Parent Company’s Gross Profit.
 2. Discounted Payback Period: The time it will likely take to get a return on dollars invested.
 
 ### Qualitative Variables:
