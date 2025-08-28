@@ -1,14 +1,10 @@
-### Cell 1: 
 pip install adjustText
 
-
-### Cell 2: 
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
 from adjustText import adjust_text
 
-### Cell 3:
 data ={
     'Category': ['Project - 1', 'Project - 10', 'Project - 3', 'Project - 9', 'Project - 4', 'Project - 5', 'Project - 6', 'Project - 7', 'Project - 2', 'Project - 8', 'Project - 11'],
     'X-Value': [2.5, 2.5, 2, 3.25, 2.5, 4, 4, 4, 3.25, 3.25, 0],    
