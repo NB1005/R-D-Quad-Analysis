@@ -1,1 +1,49 @@
+Cell 1: 
+pip install adjustText
 
+
+Cell 2: 
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.ticker import MultipleLocator
+from adjustText import adjust_text
+
+Cell 3:
+data ={
+    'Category': ['Project - 1', 'Project - 10', 'Project - 3', 'Project - 9', 'Project - 4', 'Project - 5', 'Project - 6', 'Project - 7', 'Project - 2', 'Project - 8', 'Project - 11'],
+    'X-Value': [2.5, 2.5, 2, 3.25, 2.5, 4, 4, 4, 3.25, 3.25, 0],    
+    'Y-Value': [3, 1.5, 2.4, 1.8, 1.5, 1.8, 3.9, 3.9, 2.4, 3.9, 3.6]
+}
+
+df = pd.DataFrame(data)
+
+plt.figure(figsize=(12,10))
+plt.scatter(df['X-Value'], df['Y-Value'])
+plt.gca().invert_xaxis()
+
+plt.xlim(4,0)
+plt.ylim(0,6)
+
+plt.axvline(x=2, color='black', linestyle='--')
+plt.axhline(y=3, color='black', linestyle='--')
+
+for i, row in df.iterrows():
+    plt.text(row['X-Value']+0.1, row['Y-Value'], row['Category'])
+
+texts = [t for t in plt.gca().texts]
+adjust_text(
+    texts,
+    only_move={'points': 'y', 'text': 'xy'},
+    expand=(1.1, 1.2),
+    force_text=0.9,
+    force_points=0.4
+)
+
+plt.gca().xaxis.set_major_locator(MultipleLocator(0.5))
+plt.gca().yaxis.set_major_locator(MultipleLocator(0.5))
+    
+plt.title('R&D Quadrant Analysis')
+plt.xlabel('Quantitative Score')
+plt.ylabel('Qualitative Score')
+plt.grid(True)
+plt.show()
