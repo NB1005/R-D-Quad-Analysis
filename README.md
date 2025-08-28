@@ -3,6 +3,7 @@ A comprehensive analysis of R&amp;D portfolio performance that optimizes spendin
 
 
 
+
 ## Strategy Model
 When building a model for this company,  we identified 4 variables that were most relevant to evaluating a projects performance
 
