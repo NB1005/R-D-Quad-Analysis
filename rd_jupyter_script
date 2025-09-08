@@ -6,9 +6,9 @@ from matplotlib.ticker import MultipleLocator
 from adjustText import adjust_text
 
 data ={
-    'Category': ['Project - 1', 'Project - 10', 'Project - 3', 'Project - 9', 'Project - 4', 'Project - 5', 'Project - 6', 'Project - 7', 'Project - 2', 'Project - 8', 'Project - 11'],
-    'X-Value': [2.5, 2.5, 2, 3.25, 2.5, 4, 4, 4, 3.25, 3.25, 0],    
-    'Y-Value': [3, 1.5, 2.4, 1.8, 1.5, 1.8, 3.9, 3.9, 2.4, 3.9, 3.6]
+    'Category': ['Project - 1', 'Project - 10', 'Project - 3', 'Project - 9', 'Project - 4', 'Project - 5', 'Project - 6', 'Project - 7', 'Project - 2', 'Project - 8', 'Project - 11'],  #enter project names here
+    'X-Value': [2.5, 2.5, 2, 3.25, 2.5, 4, 4, 4, 3.25, 3.25, 0],    #enter Quantitative scores here
+    'Y-Value': [3, 1.5, 2.4, 1.8, 1.5, 1.8, 3.9, 3.9, 2.4, 3.9, 3.6]   #enter Qualitative scores here
 }
 
 df = pd.DataFrame(data)
