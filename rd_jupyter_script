@@ -1,4 +1,4 @@
-pip install adjustText
+pip install adjustText #may need to install the adjustText to have more control over where the project names appear over the plotted points as they can overlap with large data sets
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -6,9 +6,9 @@ from matplotlib.ticker import MultipleLocator
 from adjustText import adjust_text
 
 data ={
-    'Category': ['Project - 1', 'Project - 10', 'Project - 3', 'Project - 9', 'Project - 4', 'Project - 5', 'Project - 6', 'Project - 7', 'Project - 2', 'Project - 8', 'Project - 11'],  #enter project names here
-    'X-Value': [2.5, 2.5, 2, 3.25, 2.5, 4, 4, 4, 3.25, 3.25, 0],    #enter Quantitative scores here
-    'Y-Value': [3, 1.5, 2.4, 1.8, 1.5, 1.8, 3.9, 3.9, 2.4, 3.9, 3.6]   #enter Qualitative scores here
+    'Category': ['Project - 1', 'Project - 10', 'Project - 3', 'Project - 9', 'Project - 4', 'Project - 5', 'Project - 6', 'Project - 7', 'Project - 2', 'Project - 8', 'Project - 11', 'Project - 12'], #enter project names here
+    'X-Value': [2.5, 2.5, 2, 3.25, 2.5, 4, 4, 4, 3.25, 3.25, 0, 1.0],    #enter Qualitative Scores here
+    'Y-Value': [3, 1.5, 2.4, 1.8, 1.5, 1.8, 3.9, 3.9, 2.4, 3.9, 3.6, 0.5] #enter Quantitative Scores here
 }
 
 df = pd.DataFrame(data)
@@ -38,7 +38,7 @@ adjust_text(
 plt.gca().xaxis.set_major_locator(MultipleLocator(0.5))
 plt.gca().yaxis.set_major_locator(MultipleLocator(0.5))
     
-plt.title('R&D Quadrant Analysis')
+plt.title('R&D Quadrant Analysis Example')
 plt.xlabel('Quantitative Score')
 plt.ylabel('Qualitative Score')
 plt.grid(True)
