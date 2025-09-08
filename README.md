@@ -1,5 +1,5 @@
 # R-D-Quad-Analysis
-A comprehensive analysis of R&amp;D portfolio performance that optimizes spending based on qualitative and quantitative scoring
+A comprehensive analysis of R&amp;D portfolio performance designed to identify projects that may be dilutive to R&D portfolio performance. This approach is particularly valuable for organizations experiencing R&D-to-income ratios that exceed industry benchmarks and to help drive actionable insights for executive decision-makers seeking to optimize resource allocation across their innovation portfolio.
 
 
 
