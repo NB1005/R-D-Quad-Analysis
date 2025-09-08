@@ -19,8 +19,7 @@ When building a model for this company,  we identified 4 variables that were mos
 For more information on how the quantitative variables are calculated and the scoring logic, refer to the following powerpoint file in this repository: *R&D Strategy Scoring Logic.pptx*
 
 ## Plotting to Quad
-Once you've compiled and collected the data needed and Strategy leadership has scored all projects, you can enter the project names, Quantitative Scores, and Qualitative Scores into their respective data frames and run the script: 
-You should end up with something that looks like the Quad in the following file in this repository: *R&D Script Results & Interpretation.pptx*
+Once you've compiled and collected the data needed and Strategy leadership has scored all projects, you can enter the project names, Quantitative Scores, and Qualitative Scores into their respective data frames and run the script: *rd_jupyter_script*. You should end up with something that looks like the Quad in the following file in this repository: *R&D Script Results & Interpretation.pptx*
 
 
 ## Interpretation:
