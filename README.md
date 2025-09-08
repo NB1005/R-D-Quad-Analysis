@@ -25,11 +25,8 @@ Once all financial data was collected and Strategy leadership scored all project
 
 ## Interpretation:
 Quad 1: Top Left - High Qualitative Score, High Quantitative Score - *Recommendation: Sustain or Increase Spend*
-
 Quad 2: Top Right - High Qualitative Score, Low Quantitative Score - *Recommendation: Optimize operational efficiency or reduce spend*
-
 Quad 3: Bottom Left - Low Qualitative Score, High Quantitative Score - *Recommendation: Optimize operational efficiency or reduce spend*
-
 Quad 4: Bottom Right - Low Qualitative Score, Low Quantitative Score - *Recommendation: Cut or defer program*
 
 Depending on where a project falls you can derive assumptions that should be thouroughly reviewed and discussed with leadership. 
