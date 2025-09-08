@@ -18,4 +18,4 @@ When building a model for this company,  we identified 4 variables that were mos
 **4. Strategy Score:** Like the risk score, the Chief Strategy Officer or Strategy Team lead assigns a score from 0 to 10 based on how well the project aligns with the company's future.
 
 ## Scoring Logic
-Each variable is assessed based on the following
+Each variable based on scoring logic found in the following file in this repository: R&D Strategy Scoring Logic.pptx
