@@ -19,3 +19,9 @@ When building a model for this company,  we identified 4 variables that were mos
 
 ## Scoring Logic
 For more information on how the quantitative variables are calculated and the scoring logic, refer to the following powerpoint file: *R&D Strategy Scoring Logic.pptx*
+
+
+## Outcome
+Deploying this model at the enterprise level, identified a significant cost-saving opportunity of $85M for the parent organization. Subsequent in-depth analysis and executive stakeholder review across all subsidiaries validated this projection, resulting in $10M of actualized savings and operating profit improvement for fiscal year 2025, with an additional $25M forecasted for 2026.
+
+Feedback from engineering leadership indicated that the model's scoring framework substantially improved resource allocation decision-making, enabling more strategic deployment of technical talent across initiatives.
