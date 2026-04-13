@@ -24,6 +24,9 @@ Once all financial data was collected and Strategy leadership scored all project
 *Note: actual values could not be used since this is a public repository*
 
 ## Interpretation:
+
+![R&D Scoring Example](/RD_Quad_image_example.png "R&D Scoring Quad)
+
 Quad 1: Top Left - High Qualitative Score, High Quantitative Score - *Recommendation: Sustain or Increase Spend*
 
 Quad 2: Top Right - High Qualitative Score, Low Quantitative Score - *Recommendation: Optimize operational efficiency or reduce spend*
