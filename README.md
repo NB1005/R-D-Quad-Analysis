@@ -39,6 +39,6 @@ Depending on where a project falls you can derive assumptions that should be tho
 
 
 ## Outcome
-Deploying this model at the enterprise level, identified a significant cost-saving opportunity of $85M for the parent organization. Subsequent in-depth analysis and executive stakeholder review across all subsidiaries resulted in ~$10M of actualized savings and operating profit improvement for fiscal year 2025, with an additional ~$25M forecasted for 2026.
+Deploying this model at the enterprise level, identified a significant cost-saving opportunity of $47M for the parent organization. Subsequent in-depth analysis and executive stakeholder review across all subsidiaries resulted in ~$10M of actualized savings and operating profit improvement for fiscal year 2025, with an additional ~$25M forecasted for 2026.
 
 Feedback from engineering leadership indicated that the model's scoring framework substantially improved resource allocation decision-making, enabling more strategic deployment of technical talent across initiatives.
